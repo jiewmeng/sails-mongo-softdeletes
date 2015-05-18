@@ -1,7 +1,7 @@
 {
-  "name": "sails-mongo",
+  "name": "sails-mongo-softdeletes",
   "version": "0.11.1",
-  "description": "Mongo DB adapter for Sails.js",
+  "description": "Mongo DB adapter for Sails.js (with soft-deletes)",
   "main": "./lib/adapter.js",
   "scripts": {
     "test": "make test"
@@ -32,13 +32,17 @@
     {
       "name": "Andy Pham",
       "email": "andyphamhung@gmail.com"
+    },
+    {
+      "name": "Jiew Meng",
+      "email": "jiewmeng@gmail.com"
     }
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mongo.git"
+    "url": "git@github.com:jiewmeng/sails-mongo-softdeletes.git"
   },
   "dependencies": {
     "async": "~0.8.0",
